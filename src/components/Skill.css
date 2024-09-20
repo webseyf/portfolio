@@ -1,0 +1,39 @@
+.skills-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 20px;
+position: static;
+margin: 0 auto;
+  justify-content: space-evenly;
+  padding: 40px;
+}
+
+.skill-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 10px;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 15px rgba(0, 0, 0, 0.2);
+}
+
+.card-header {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-title {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+.card-text {
+  font-size: 0.9rem;
+}
+@media (max-width: 768px) {
+  .skill-card {
+    max-width: '28rem';
+  }
+}

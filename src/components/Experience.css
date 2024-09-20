@@ -1,0 +1,130 @@
+.experience-container {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  max-width: 1070px;
+  display: flex;
+  margin: auto;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  flex-direction: column; /* Stack elements vertically */
+  margin: 0 auto;
+  margin-bottom: 74px;
+}
+
+.button-group {
+  display: flex;
+  flex-direction: row; /* Keep buttons in a row */
+  justify-content: flex-start;
+  gap: 12px;
+  margin-left: 34px;
+  overflow-x: auto; /* Allow horizontal scrolling on small screens */
+}
+
+.tab-button {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: #333;
+  height: 42px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 10px 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.tab-button:hover {
+  background-color: #ddd;
+}
+
+.tab-button.active {
+  background-color: #007bff;
+  color: #fff;
+  border-color: #007bff;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: column; /* Stack content and video on mobile */
+  margin-top: 10px;
+}
+
+.contenti {
+  width: 100%;
+  transition: opacity 0.5s ease-in-out;
+  text-align: left;
+}
+
+.contenti-section {
+  display: none;
+  padding: 20px;
+}
+
+.contenti-section.show {
+  display: block; /* Show active section */
+}
+
+.video-container {
+  margin-top: 10px;
+  width: 100%; /* Full width on mobile */
+  display: flex;
+  height: 233px;
+  margin-bottom: 54px;
+  justify-content: center;
+}
+
+iframe {
+  width: 100%; /* Responsive width */
+  max-width: 533px; /* Limit max width */
+  height: auto; /* Maintain aspect ratio */
+  border: none;
+}
+
+/* Media Query for Larger Devices */
+@media (min-width: 768px) {
+  .experience-container {
+    flex-direction: column; 
+    margin: 0;
+    padding: 0; /* Keep the main layout as column */
+  }
+
+  .button-group {
+    margin-bottom: 7px; /* Space between buttons and content */
+  }
+
+  .content-wrapper {
+    display: flex;
+    flex-direction: row; /* Arrange content and video side by side */
+    gap: 20px; /* Add gap between content and video */
+  }
+
+  .video-container {
+    flex: 0 0 533px; /* Fixed width for video on larger screens */
+  }
+
+  .contenti {
+    flex: 1; /* Allow content to take available space */
+  }
+
+  .contenti-section {
+    padding: 0 20px;
+  }
+}
+
+.full {
+  display: flex;
+  flex-direction: column;
+}
+.experience-container {
+  font-family: Arial, sans-serif;
+  padding: 10px;
+  max-width: 1070px;
+  display: flex;
+  margin: auto;
+  display: flex;
+  margin-left: auto;
+  justify-content: center;
+  flex-direction: column; /* Stack elements vertically */
+  margin: 0 auto;
+  margin-bottom: 74px;
+}

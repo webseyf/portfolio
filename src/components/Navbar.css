@@ -1,0 +1,59 @@
+.custom-bg-color {
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.mr{
+  color: #12f312;
+
+}
+.container{
+  position: sticky;
+  z-index: 43567;
+  top: 7px;
+}
+.seyfadin{
+  color: yellow;
+}
+.animate-slide {
+  transition: all 0.4s ease;
+}
+.nav-link.focus {
+  color: #12f312;
+  text-decoration-line: underline;
+}
+@media (max-width: 768px) {
+  .navbar-nav {
+    flex-direction: column;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    position: absolute;
+    background-color: #071de0;
+    align-items: center;
+  }
+
+  .navbar-collapse.show {
+    transform: translateY(0);
+  }
+
+  .collapse {
+    transform: translateY(-100%);
+  }
+}
+
+.navbar-toggler-icon {
+  background-color: #ffffff;
+}
+
+.nav-link {
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #3498db;
+}
+
+.nav-link.active {
+  color: #12f312;
+  text-decoration-line: underline;
+}
