@@ -33,39 +33,39 @@ once: false
 // Project data
 const projects = [
   {
-    image: 'public/photo_26_2024-09-08_14-53-29.jpg',
+    image: '/photo_26_2024-09-08_14-53-29.jpg',
     description: 'An e-commerce front-end website built with React.js.',
     link: 'https://tafach-seyfadin-abdelas-projects.vercel.app/',
     category: 'upwork'
   },
   {
-    image: 'public/photo_18_2024-09-08_14-53-29.jpg',
+    image: '/photo_18_2024-09-08_14-53-29.jpg',
     description: 'A real estate web application showcasing listings.',
     link: 'https://real-estate-web-youtube.pages.dev/',
     category: 'portfolio'
   },
   {
-    image: 'public/photo_15_2024-09-08_14-53-29.jpg',
+    image: '/photo_15_2024-09-08_14-53-29.jpg',
     description: 'A versatile tech stack for modern web applications.',
     link: 'https://greatstack.in/',
     category: 'upwork'
   },
   {
-    image: 'public/photo_20_2024-09-08_14-53-29.jpg',
+    image: '/photo_20_2024-09-08_14-53-29.jpg',
     description: 'My personal portfolio showcasing various projects.',
     link: 'https://seyfadin42.github.io/portfolio1/',
     category: 'portfolio'
   },
   {
-    image: 'public/photo_2024-09-20_00-47-11.jpg',
+    image: '/photo_2024-09-20_00-47-11.jpg',
     description: 'Different projects I have been working on as a freelancer on Upwork.',
     link: 'https://ex.com/project2',
     category: 'upwork'
   },
   {
-    image: 'public/Capture.PNG',
+    image: '/Capture.PNG',
     description: 'Another project called TechNova as a landing page.',
-    link: 'public/Capture.PNG',
+    link: '/Capture.PNG',
     category: 'upwork'
   },
 ];
