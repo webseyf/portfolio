@@ -50,7 +50,7 @@ once: false
 
           <div className="faq-accordion"  data-aos="zoom-out">
             {faqs.map((faq, index) => (
-              <div className={`faq-item ${activeIndex === index ? 'active' : ''}`} key={index} data-aos="fade-up">
+              <div className={`faq-item ${activeIndex === index ? 'active' : ''}`} key={index} >
                 <button
                   className="faq-question"
                   aria-expanded={activeIndex === index}
