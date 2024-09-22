@@ -53,7 +53,7 @@ const projects = [
   {
     image: '/photo_20_2024-09-08_14-53-29.jpg',
     description: 'My personal portfolio showcasing various projects.',
-    link: 'https://seyfadin42.github.io/portfolio1/',
+    link: 'https://webseyf.github.io/portfolio1/',
     category: 'portfolio'
   },
   {
@@ -65,7 +65,7 @@ const projects = [
   {
     image: '/Capture.PNG',
     description: 'Another project called TechNova as a landing page.',
-    link: '/Capture.PNG',
+    link: 'https://webseyf.github.io/TechNova/',
     category: 'upwork'
   },
 ];
