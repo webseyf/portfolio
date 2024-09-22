@@ -25,7 +25,7 @@ once: false
     },
     {
       question: 'How do you ensure the websites are responsive?',
-      answer: 'I use mobile-first design principles, CSS Flexbox, and Grid layout to ensure that websites look good on all devices.',
+      answer: 'I use mobile-first design principles, CSS Flexbox and Grid layout to ensure that websites look good on all devices.',
     },
     {
       question: 'What is your experience with JavaScript frameworks?',
@@ -38,7 +38,7 @@ once: false
   ];
 
   return (
-    <div className="faq-wrapper" data-aos="fade-up"
+    <div className="faq-wrapper" data-aos="zoom-out"
  id='faq'>
       <section className="faq-section">
         <div className="faq-background">
@@ -48,7 +48,7 @@ once: false
         <div className="faq-container" >
           <h2 className="faq-title" >Frequently Asked Questions</h2>
 
-          <div className="faq-accordion"  data-aos="slide-up">
+          <div className="faq-accordion"  data-aos="zoom-out">
             {faqs.map((faq, index) => (
               <div className={`faq-item ${activeIndex === index ? 'active' : ''}`} key={index} data-aos="fade-up">
                 <button
