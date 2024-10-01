@@ -18,7 +18,7 @@ once: false
   const handleNavCollapse = () => setIsNavCollapsed(!isNavCollapsed);
 
   return (
-    <div className="container" data-aos="fade-left">
+    <div className="container" >
       <header className="navbar navbar-expand-md py-2 mb-3 custom-bg-color ">
         <a
           href="/"

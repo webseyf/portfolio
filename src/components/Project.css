@@ -73,6 +73,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  max-width:1211px;
+  margin: auto;
   padding: 20px; /* Added padding */
 }
 
@@ -114,5 +116,12 @@
   }
   .project{
     font-size: 25px;
+  }
+  .filter-buttons {
+display: flex;
+gap: 1px;
+padding-left: 0px;
+padding-right: 0px;
+    margin-bottom: 20px;
   }
 }

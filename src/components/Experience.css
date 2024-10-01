@@ -87,7 +87,14 @@ iframe {
     margin: 0;
     padding: 0; /* Keep the main layout as column */
   }
-
+  .button-group {
+    display: flex;
+    flex-direction: row; /* Keep buttons in a row */
+    justify-content: flex-start;
+    gap: 12px;
+    margin-left: 34px;
+    overflow-x: auto; /* Allow horizontal scrolling on small screens */
+  }
   .button-group {
     margin-bottom: 7px; 
     margin-left: 0%;
