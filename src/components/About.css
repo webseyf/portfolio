@@ -98,7 +98,11 @@ body, html {
     text-align: center;
   }
 }
-
+.cent{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 @media (max-width: 480px) {
   .about-image-wrapper {
     width: 100%;

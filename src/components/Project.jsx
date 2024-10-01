@@ -77,7 +77,7 @@ function Portfolio() {
   // Handler function for filtering
   const handleFilter = (category) => {
     if (category === 'all') {
-      setFilteredProjects(projects); // Show all projects
+      setFilteredProjects(projects); // Show all project
     } else {
       const filtered = projects.filter(project => project.category === category);
       setFilteredProjects(filtered);

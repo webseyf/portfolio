@@ -89,7 +89,9 @@ iframe {
   }
 
   .button-group {
-    margin-bottom: 7px; /* Space between buttons and content */
+    margin-bottom: 7px; 
+    margin-left: 0%;
+    gap: 1px;/* Space between buttons and content */
   }
 
   .content-wrapper {

@@ -76,12 +76,6 @@
   padding: 20px; /* Added padding */
 }
 
-@media (max-width: 768px) {
-  .portfolio-container {
-    flex-direction: column; /* Stack cards on smaller screens */
-    align-items: center;
-  }
-}
 
 
 /* Styles for Filter Buttons */
@@ -110,4 +104,15 @@
   justify-content: center;
   display: flex;
   margin-bottom: 12px;
+}
+
+
+@media (max-width: 768px) {
+  .portfolio-container {
+    flex-direction: column; /* Stack cards on smaller screens */
+    align-items: center;
+  }
+  .project{
+    font-size: 25px;
+  }
 }

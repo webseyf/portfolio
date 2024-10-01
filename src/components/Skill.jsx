@@ -1,8 +1,18 @@
+import { useEffect } from 'react';
 import './Skill.css';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 function Skill() {
+  useEffect(() => {
+    AOS.init({
+      duration: 1000,
+      easing: 'ease-in-out',
+once: false   
+    });
+  }, []);
   return (
     <div className='row container skills-container' id='skill'>
-      <div className="card text-bg-primary mb-3 " style={{ maxWidth: '18rem' }}>
+      <div className="card text-bg-primary mb-3 " style={{ maxWidth: '18rem' }} data-aos="fade-right">
         <div className="card-header">React JS</div>
         <div className="card-body">
           <h5 className="card-title">Component-Based Architecture</h5>
@@ -12,7 +22,7 @@ function Skill() {
         </div>
       </div>
 
-      <div className="card text-bg-secondary mb-3" style={{ maxWidth: '20rem' }}>
+      <div className="card text-bg-secondary mb-3" style={{ maxWidth: '20rem' }} data-aos="fade-left">
         <div className="card-header">JavaScript</div>
         <div className="card-body">
           <h5 className="card-title">Powerful Web Language</h5>
@@ -22,7 +32,7 @@ function Skill() {
         </div>
       </div>
 
-      <div className="card text-bg-success mb-3" style={{ maxWidth: '18rem' }}>
+      <div className="card text-bg-success mb-3" style={{ maxWidth: '18rem' }} data-aos="fade-right">
         <div className="card-header">HTML & CSS</div>
         <div className="card-body">
           <h5 className="card-title">Web Structure & Styling</h5>
@@ -32,7 +42,7 @@ function Skill() {
         </div>
       </div>
 
-      <div className="card text-bg-danger mb-3" style={{ maxWidth: '18rem' }}>
+      <div className="card text-bg-danger mb-3" style={{ maxWidth: '18rem' }} data-aos="fade-left">
         <div className="card-header">Bootstrap</div>
         <div className="card-body">
           <h5 className="card-title">Responsive Design Framework</h5>
@@ -44,7 +54,7 @@ function Skill() {
 
       
 
-      <div className="card text-bg-light mb-3" style={{ maxWidth: '18rem' }}>
+      <div className="card text-bg-light mb-3" style={{ maxWidth: '18rem' }} data-aos="fade-right">
         <div className="card-header">Version Control (Git)</div>
         <div className="card-body">
           <h5 className="card-title">Collaborative Development</h5>
@@ -54,7 +64,7 @@ function Skill() {
         </div>
       </div>
 
-      <div className="card text-bg-dark mb-3" style={{ maxWidth: '18rem' }}>
+      <div className="card text-bg-dark mb-3" style={{ maxWidth: '18rem' }} data-aos="fade-left">
         <div className="card-header">Problem-Solving</div>
         <div className="card-body">
           <h5 className="card-title">Analytical & Strategic Thinking</h5>
